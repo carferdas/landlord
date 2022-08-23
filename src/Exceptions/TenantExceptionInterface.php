@@ -1,6 +1,6 @@
 <?php
 
-namespace NunoMazer\Samehouse\Exceptions;
+namespace CarlosJFernandes\Landlord\Exceptions;
 
 interface TenantExceptionInterface
 {

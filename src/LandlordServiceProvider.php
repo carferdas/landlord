@@ -1,6 +1,6 @@
 <?php
 
-namespace NunoMazer\Samehouse;
+namespace CarlosJFernandes\Landlord;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -15,7 +15,7 @@ class LandlordServiceProvider extends ServiceProvider
     {
         if (function_exists('config_path')) {
             $this->publishes([
-                realpath(__DIR__.'/../config/samehouse.php') => config_path('samehouse.php'),
+                realpath(__DIR__.'/../config/landlord.php') => config_path('landlord.php'),
             ]);
         }
     }

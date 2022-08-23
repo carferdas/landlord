@@ -1,6 +1,6 @@
 <?php
 
-namespace NunoMazer\Samehouse;
+namespace CarlosJFernandes\Landlord;
 
 use NunoMazer\Samehouse\Exceptions\ModelNotFoundForTenantException;
 use Illuminate\Database\Eloquent\Model;

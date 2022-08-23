@@ -1,8 +1,8 @@
 <?php
 
-namespace NunoMazer\Samehouse\Facades;
+namespace CarlosJFernandes\Landlord\Facades;
 
-use NunoMazer\Samehouse\TenantManager;
+use CarlosJFernandes\Landlord\TenantManager;
 use Illuminate\Support\Facades\Facade;
 
 class Landlord extends Facade

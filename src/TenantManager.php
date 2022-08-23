@@ -1,6 +1,6 @@
 <?php
 
-namespace NunoMazer\Samehouse;
+namespace CarlosJFernandes\Landlord;
 
 use NunoMazer\Samehouse\Exceptions\TenantColumnUnknownException;
 use NunoMazer\Samehouse\Exceptions\TenantNullIdException;
