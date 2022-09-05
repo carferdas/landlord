@@ -2,7 +2,7 @@
 
 namespace CarlosJFernandes\Landlord;
 
-use NunoMazer\Samehouse\Exceptions\ModelNotFoundForTenantException;
+use CarlosJFernandes\Landlord\Exceptions\ModelNotFoundForTenantException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 

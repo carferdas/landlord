@@ -2,8 +2,8 @@
 
 namespace CarlosJFernandes\Landlord;
 
-use NunoMazer\Samehouse\Exceptions\TenantColumnUnknownException;
-use NunoMazer\Samehouse\Exceptions\TenantNullIdException;
+use CarlosJFernandes\Landlord\Exceptions\TenantColumnUnknownException;
+use CarlosJFernandes\LandLord\Exceptions\TenantNullIdException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
